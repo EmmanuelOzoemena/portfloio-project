@@ -1,0 +1,35 @@
+body {
+    background-image: linear-gradient(to left, aqua, white);
+}
+
+.project {
+    margin: 5% auto;
+    background-image: linear-gradient(to left, white, aqua, white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 40%;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.bottom {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bottom a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: black; 
+    transition: all .4s;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.bottom a:active {
+    opacity: 0.7;
+}

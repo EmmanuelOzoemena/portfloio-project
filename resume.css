@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(to left, blue, white);
+}
+
+.double {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table {
+    border: blue;
+}
+
+.top-blue {
+    color: #fff;
+}
+
+.top-white {
+    color: blue;
+}
+
+.top {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.skill {
+    border: blue;
+    color: blue;
+}
+
+.know {
+    border: #fff;
+    color: #fff;
+}
+
+.bottom {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bottom a {
+    text-decoration: none;
+    
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: blue; 
+    transition: all .4s;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.bottom a:active {
+    opacity: 0.7;
+}
